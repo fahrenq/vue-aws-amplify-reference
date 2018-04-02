@@ -24,7 +24,6 @@ const logger = new Logger('Header component');
 export default {
   methods: {
     signOut() {
-      if (!this.$user) return;
       Auth.signOut()
         .then(() => {
           this.$store.commit('clearUser');

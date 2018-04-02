@@ -54,7 +54,7 @@ export default {
   methods: {
     forgotPassword() {
       Auth.forgotPassword(this.username)
-        .then(() => alert('Emails with code has been sent'))
+        .then(() => alert('Email with code has been sent'))
         .catch(err => logger.error('forgotPassword method', err));
     },
 

@@ -7,10 +7,10 @@ import { store } from './store';
 
 Amplify.configure({
   Auth: {
-    identityPoolId: 'eu-central-1:59c2082d-d91b-40a0-9269-6e5072dd99a3',
-    region: 'eu-central-1',
-    userPoolId: 'eu-central-1_Yesjw0oXK',
-    userPoolWebClientId: '1dcqvn8sqg6toq0v59b4toi092',
+    identityPoolId: 'us-east-1:b8bab8ee-9c52-4a28-876a-5afe66ed84c3',
+    region: 'us-east-1',
+    userPoolId: 'us-east-1_iKDEc0ksV',
+    userPoolWebClientId: '6rmq3kmhn0ecr6dgamoaenu3ds',
   },
   Analytics: {
     disabled: true,
